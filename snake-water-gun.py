@@ -42,8 +42,13 @@ for i in range(11):
         else:
             print("enter valid input")
 
-print("GAME OVER")
-print("Your Score :", m)
+print("\nGAME OVER")
+if (m>c):
+    print("\nyou won the game")
+else:
+    print("\nyou lost the game")
+
+print("\nYour Score :", m)
 print("system score :", c)
 print("Draws:",d)
 
