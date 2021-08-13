@@ -4,7 +4,7 @@ l = ["Snake", "Water", "Gun"]
 m=0
 c=0
 d=0
-for i in range(11):
+for i in range(10):
         r = random.choice(l)
         a = input("press S for snake W for water G for gun:")
         if a=="S" or a=="s":
